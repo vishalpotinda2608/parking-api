@@ -1,0 +1,234 @@
+[
+  {
+    "_id": "ee4ee10e-5ffe-462c-a3d4-0088ce3c3e3e",
+    "colId": "history",
+    "containerId": "",
+    "name": "finduser",
+    "url": "localhost:3000/userbyid",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2022-12-16T05:32:20.765Z",
+    "modified": "2022-12-19T07:35:52.050Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"userid\":\"01\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "cded3e0e-9ea6-4ce0-8b9c-8dca616fcd04",
+    "colId": "history",
+    "containerId": "",
+    "name": "createuser",
+    "url": "localhost:3000/getregister",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2022-12-16T05:53:31.942Z",
+    "modified": "2022-12-21T07:54:08.616Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n   \"name\":\"kunal\", \n   \"userid\":\"01\",\n   \"lastname\":\"bhande\",\n   \"email\":\"bhandekunal16@gmail.com\",\n   \"mobileno\":\"8779143048\",\n   \"pin\":\"172000\",\n   \"adress\":\"at thane\",\n   \"pincode\":\"421401\",\n   \"city\":\"thane\",\n   \"countery\":\"india\",\n   \"locality\":\"thane\",\n   \"state\":\"maharastra\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "4b345b24-7de5-4eff-aa5c-dedc87a3a9ea",
+    "colId": "history",
+    "containerId": "",
+    "name": "userbymobileno",
+    "url": "localhost:3000/userbymobileno",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2022-12-19T07:20:41.455Z",
+    "modified": "2022-12-19T07:44:22.403Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"mobileno\":\"8779143048\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "94bd8388-b665-4f30-97e4-ac034e14b247",
+    "colId": "history",
+    "containerId": "",
+    "name": "getalluser",
+    "url": "localhost:3000/getalluser",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2022-12-19T08:47:00.262Z",
+    "modified": "2022-12-19T11:22:15.978Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "5bb0a3a4-8978-4935-bc79-8d0dd82980ad",
+    "colId": "history",
+    "containerId": "",
+    "name": "updateemail",
+    "url": "localhost:3000/updateemail",
+    "method": "PATCH",
+    "sortNum": 0,
+    "created": "2022-12-19T10:02:11.900Z",
+    "modified": "2022-12-19T10:02:11.900Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"name\":\"ashmit\",\n  \"email\":\"tashmit2003@gmail.com\"}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "2432bfcf-6fdd-4ed6-829c-f71602f86d30",
+    "colId": "history",
+    "containerId": "",
+    "name": "enableuser",
+    "url": "localhost:3000/enableuser",
+    "method": "PATCH",
+    "sortNum": 0,
+    "created": "2022-12-19T11:05:31.873Z",
+    "modified": "2022-12-19T12:19:11.418Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"userid\":\"01\"}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "6ff63203-3b6f-48e9-b196-d64c28e981b8",
+    "colId": "history",
+    "containerId": "",
+    "name": "disableuser",
+    "url": "localhost:3000/disableuser",
+    "method": "PATCH",
+    "sortNum": 0,
+    "created": "2022-12-19T11:26:36.370Z",
+    "modified": "2022-12-19T11:32:57.341Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\"userid\":\"02\"}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "e524758f-03c3-4d28-92ac-6bdee862641f",
+    "colId": "history",
+    "containerId": "",
+    "name": "getdisable",
+    "url": "localhost:3000/getdisable",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2022-12-19T12:09:09.464Z",
+    "modified": "2022-12-19T12:09:09.464Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "19c92962-f884-4b4e-99e2-46c8a56d1ab8",
+    "colId": "history",
+    "containerId": "",
+    "name": "getenable",
+    "url": "localhost:3000/getenable",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2022-12-19T12:17:43.783Z",
+    "modified": "2022-12-19T12:17:43.783Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "26940c77-a438-4394-95cd-776fd91b5a92",
+    "colId": "history",
+    "containerId": "",
+    "name": "login",
+    "url": "localhost:3000/login",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2022-12-20T04:54:11.764Z",
+    "modified": "2022-12-20T05:27:28.770Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"pin\":\"172000\",\n  \"mobileno\":\"8779143048\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "ab7aebec-35e6-4bb5-a3fb-0557a41057ea",
+    "colId": "history",
+    "containerId": "",
+    "name": "localhost:3000/forgetpassword",
+    "url": "localhost:3000/forgetpassword",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2022-12-22T07:04:22.610Z",
+    "modified": "2022-12-22T07:05:59.536Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"mobileno\":\"8779143048\",\n  \"pin\":\"1720\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "5134fa5e-10cc-4c66-8159-2f9274070e18",
+    "colId": "history",
+    "containerId": "",
+    "name": "localhost:3000/forgetpassword",
+    "url": "localhost:3000/forgetpassword",
+    "method": "PATCH",
+    "sortNum": 0,
+    "created": "2022-12-22T07:06:20.020Z",
+    "modified": "2022-12-22T07:06:20.020Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"mobileno\":\"8779143048\",\n  \"pin\":\"1720\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "b6de02a9-a88f-4c6a-b4b2-c74bd09e1866",
+    "colId": "history",
+    "containerId": "",
+    "name": "forgetpassword",
+    "url": "forgetpassword",
+    "method": "PATCH",
+    "sortNum": 0,
+    "created": "2022-12-22T07:12:55.931Z",
+    "modified": "2022-12-22T07:12:55.931Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"mobileno\":\"8779143048\",\n  \"pin\":\"1720\"\n}",
+      "form": []
+    },
+    "tests": []
+  }
+]
